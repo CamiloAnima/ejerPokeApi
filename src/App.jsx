@@ -10,7 +10,6 @@ import {
 import Pokemon from "./Pokemon";
 import PokemonById from "./PokemonById";
 
-// Layout Component with Sidebar
 function Layout() {
   return (
     <div className="min-h-screen flex">
@@ -27,7 +26,7 @@ function Layout() {
       </nav>
 
       {/* Main Content */}
-      <div className="flex-1 p-6 bg-gray-100">
+      <div className="flex-1  h-screen p-6 bg-gray-100">
         <Outlet />
       </div>
     </div>
